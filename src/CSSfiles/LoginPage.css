@@ -1,0 +1,20 @@
+.loginpage{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.loginpage > button{
+    width: 300px;
+    background-color: #738adb;
+    color: #eff2f5;
+    font-weight: 800;
+}
+.loginpage > button:hover{
+    background-color:black;
+    color: #738adb;
+}
+.loginpage > div > img{
+    object-fit: contain;
+    height: 150px;
+}
